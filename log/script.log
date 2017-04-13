@@ -1,0 +1,1134 @@
+2017-04-12 21:48:02,233 [Thread-2:9884] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project\blog\views.py", line 23, in index
+    return render(request, 'index.html', locals())
+  File "G:\python-project\blog_project_env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\base.py", line 205, in render
+    with context.bind_template(self):
+  File "d:\appinstallment\python\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_settings() takes no arguments (1 given)
+2017-04-12 21:49:02,943 [Thread-2:9056] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project\blog\views.py", line 22, in index
+    return render(request, 'index.html', locals())
+  File "G:\python-project\blog_project_env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\base.py", line 205, in render
+    with context.bind_template(self):
+  File "d:\appinstallment\python\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_settings() takes no arguments (1 given)
+2017-04-12 21:49:45,576 [Thread-2:10152] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project\blog\views.py", line 22, in index
+    return render(request, 'index.html', locals())
+  File "G:\python-project\blog_project_env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\base.py", line 205, in render
+    with context.bind_template(self):
+  File "d:\appinstallment\python\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_settings() takes no arguments (1 given)
+2017-04-12 21:51:30,746 [Thread-4:9652] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project\blog\views.py", line 22, in index
+    return render(request, 'index.html', locals())
+  File "G:\python-project\blog_project_env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\base.py", line 205, in render
+    with context.bind_template(self):
+  File "d:\appinstallment\python\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_settings() takes no arguments (1 given)
+2017-04-12 21:51:59,867 [Thread-2:8808] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project\blog\views.py", line 22, in index
+    return render(request, 'index.html', locals())
+  File "G:\python-project\blog_project_env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\base.py", line 205, in render
+    with context.bind_template(self):
+  File "d:\appinstallment\python\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2017-04-12 21:52:36,321 [Thread-3:9108] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-04-12 21:52:46,023 [Thread-7:9232] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-04-12 21:53:10,240 [Thread-2:7500] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project\blog\views.py", line 22, in index
+    return render(request, 'index.html', locals())
+  File "G:\python-project\blog_project_env\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\base.py", line 205, in render
+    with context.bind_template(self):
+  File "d:\appinstallment\python\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\template\context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2017-04-12 21:53:16,535 [Thread-3:1648] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-04-12 21:53:31,950 [Thread-3:6432] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-04-13 21:14:01,430 [Thread-7:1192] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-04-13 21:14:01,805 [Thread-16:6268] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-04-13 21:14:29,897 [Thread-22:5144] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-04-13 21:15:01,308 [Thread-7:1776] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-04-13 21:15:02,427 [Thread-10:4384] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-04-13 21:15:13,604 [Thread-27:6364] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 238, in inner
+    self._setup()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 385, in _setup
+    self._wrapped = self._setupfunc()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 206, in get_user
+    user_id = _get_user_session_key(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 57, in __getitem__
+    return self._session[key]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 373, in get
+    num = len(clone)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 1102, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\sql\compiler.py", line 876, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: django_session
+2017-04-13 21:16:02,483 [Thread-32:1780] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 238, in inner
+    self._setup()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 385, in _setup
+    self._wrapped = self._setupfunc()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 206, in get_user
+    user_id = _get_user_session_key(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 57, in __getitem__
+    return self._session[key]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 373, in get
+    num = len(clone)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 1102, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\sql\compiler.py", line 876, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: django_session
+2017-04-13 21:17:16,961 [Thread-38:3296] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 238, in inner
+    self._setup()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 385, in _setup
+    self._wrapped = self._setupfunc()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 206, in get_user
+    user_id = _get_user_session_key(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 57, in __getitem__
+    return self._session[key]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 373, in get
+    num = len(clone)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 1102, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\sql\compiler.py", line 876, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: django_session
+2017-04-13 21:17:19,148 [Thread-44:4676] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 238, in inner
+    self._setup()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 385, in _setup
+    self._wrapped = self._setupfunc()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 206, in get_user
+    user_id = _get_user_session_key(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 57, in __getitem__
+    return self._session[key]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 373, in get
+    num = len(clone)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 1102, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\sql\compiler.py", line 876, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: django_session
+2017-04-13 21:19:55,447 [Thread-2:6072] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 238, in inner
+    self._setup()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 385, in _setup
+    self._wrapped = self._setupfunc()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 206, in get_user
+    user_id = _get_user_session_key(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 57, in __getitem__
+    return self._session[key]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 373, in get
+    num = len(clone)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 1102, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\sql\compiler.py", line 876, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: django_session
+2017-04-13 21:30:58,440 [Thread-2:4744] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 238, in inner
+    self._setup()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 385, in _setup
+    self._wrapped = self._setupfunc()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 206, in get_user
+    user_id = _get_user_session_key(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 57, in __getitem__
+    return self._session[key]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 373, in get
+    num = len(clone)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 1102, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\sql\compiler.py", line 876, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: django_session
+2017-04-13 21:32:14,770 [Thread-2:6372] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 238, in inner
+    self._setup()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 385, in _setup
+    self._wrapped = self._setupfunc()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 206, in get_user
+    user_id = _get_user_session_key(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 57, in __getitem__
+    return self._session[key]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 373, in get
+    num = len(clone)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 1102, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\sql\compiler.py", line 876, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: django_session
+2017-04-13 21:32:16,937 [Thread-3:6744] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 238, in inner
+    self._setup()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 385, in _setup
+    self._wrapped = self._setupfunc()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 206, in get_user
+    user_id = _get_user_session_key(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 57, in __getitem__
+    return self._session[key]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 373, in get
+    num = len(clone)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 1102, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\sql\compiler.py", line 876, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: django_session
+2017-04-13 21:32:19,634 [Thread-5:1968] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 238, in inner
+    self._setup()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 385, in _setup
+    self._wrapped = self._setupfunc()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 206, in get_user
+    user_id = _get_user_session_key(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 57, in __getitem__
+    return self._session[key]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 373, in get
+    num = len(clone)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 1102, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\sql\compiler.py", line 876, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: django_session
+2017-04-13 21:32:20,611 [Thread-6:5536] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 238, in inner
+    self._setup()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 385, in _setup
+    self._wrapped = self._setupfunc()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 206, in get_user
+    user_id = _get_user_session_key(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 57, in __getitem__
+    return self._session[key]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 373, in get
+    num = len(clone)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 1102, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\sql\compiler.py", line 876, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: django_session
+2017-04-13 21:32:21,487 [Thread-7:6812] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 238, in inner
+    self._setup()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 385, in _setup
+    self._wrapped = self._setupfunc()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 206, in get_user
+    user_id = _get_user_session_key(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 57, in __getitem__
+    return self._session[key]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 373, in get
+    num = len(clone)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 1102, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\sql\compiler.py", line 876, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: django_session
+2017-04-13 21:32:22,249 [Thread-8:6644] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 238, in inner
+    self._setup()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 385, in _setup
+    self._wrapped = self._setupfunc()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 206, in get_user
+    user_id = _get_user_session_key(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 57, in __getitem__
+    return self._session[key]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 373, in get
+    num = len(clone)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 1102, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\sql\compiler.py", line 876, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: django_session
+2017-04-13 21:32:23,164 [Thread-9:5220] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 238, in inner
+    self._setup()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\functional.py", line 385, in _setup
+    self._wrapped = self._setupfunc()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 206, in get_user
+    user_id = _get_user_session_key(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\auth\__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 57, in __getitem__
+    return self._session[key]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\sessions\backends\db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 373, in get
+    num = len(clone)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 1102, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\models\sql\compiler.py", line 876, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return Database.Cursor.execute(self, query, params)
+OperationalError: no such table: django_session
+2017-04-13 22:06:05,990 [Thread-16:7656] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2017-04-13 22:53:06,323 [Thread-2:7852] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\options.py", line 1481, in _changeform_view
+    self.admin_site.each_context(request),
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 297, in each_context
+    'available_apps': self.get_app_list(request),
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 465, in get_app_list
+    app_dict = self._build_app_dict(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 432, in _build_app_dict
+    model_dict['admin_url'] = reverse('admin:%s_%s_changelist' % info, current_app=self.name)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\base.py", line 60, in reverse
+    app_list = resolver.app_dict[ns]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\resolvers.py", line 348, in app_dict
+    self._populate()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\resolvers.py", line 288, in _populate
+    for pattern in reversed(self.url_patterns):
+TypeError: argument to reversed() must be a sequence
+2017-04-13 22:54:04,280 [Thread-2:6968] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\options.py", line 1481, in _changeform_view
+    self.admin_site.each_context(request),
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 297, in each_context
+    'available_apps': self.get_app_list(request),
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 465, in get_app_list
+    app_dict = self._build_app_dict(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 432, in _build_app_dict
+    model_dict['admin_url'] = reverse('admin:%s_%s_changelist' % info, current_app=self.name)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\base.py", line 60, in reverse
+    app_list = resolver.app_dict[ns]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\resolvers.py", line 348, in app_dict
+    self._populate()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\resolvers.py", line 288, in _populate
+    for pattern in reversed(self.url_patterns):
+TypeError: argument to reversed() must be a sequence
+2017-04-13 22:54:15,812 [Thread-4:6140] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 482, in index
+    app_list = self.get_app_list(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 465, in get_app_list
+    app_dict = self._build_app_dict(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 432, in _build_app_dict
+    model_dict['admin_url'] = reverse('admin:%s_%s_changelist' % info, current_app=self.name)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\base.py", line 60, in reverse
+    app_list = resolver.app_dict[ns]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\resolvers.py", line 348, in app_dict
+    self._populate()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\resolvers.py", line 288, in _populate
+    for pattern in reversed(self.url_patterns):
+TypeError: argument to reversed() must be a sequence
+2017-04-13 22:55:02,838 [Thread-2:7560] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 482, in index
+    app_list = self.get_app_list(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 465, in get_app_list
+    app_dict = self._build_app_dict(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 432, in _build_app_dict
+    model_dict['admin_url'] = reverse('admin:%s_%s_changelist' % info, current_app=self.name)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\base.py", line 60, in reverse
+    app_list = resolver.app_dict[ns]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\resolvers.py", line 348, in app_dict
+    self._populate()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\resolvers.py", line 288, in _populate
+    for pattern in reversed(self.url_patterns):
+TypeError: argument to reversed() must be a sequence
+2017-04-13 22:55:10,200 [Thread-2:5124] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 482, in index
+    app_list = self.get_app_list(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 465, in get_app_list
+    app_dict = self._build_app_dict(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 432, in _build_app_dict
+    model_dict['admin_url'] = reverse('admin:%s_%s_changelist' % info, current_app=self.name)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\base.py", line 60, in reverse
+    app_list = resolver.app_dict[ns]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\resolvers.py", line 348, in app_dict
+    self._populate()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\resolvers.py", line 288, in _populate
+    for pattern in reversed(self.url_patterns):
+TypeError: argument to reversed() must be a sequence
+2017-04-13 22:55:45,348 [Thread-2:3184] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 482, in index
+    app_list = self.get_app_list(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 465, in get_app_list
+    app_dict = self._build_app_dict(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\contrib\admin\sites.py", line 432, in _build_app_dict
+    model_dict['admin_url'] = reverse('admin:%s_%s_changelist' % info, current_app=self.name)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\base.py", line 60, in reverse
+    app_list = resolver.app_dict[ns]
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\resolvers.py", line 348, in app_dict
+    self._populate()
+  File "G:\python-project\blog_project_env\lib\site-packages\django\urls\resolvers.py", line 288, in _populate
+    for pattern in reversed(self.url_patterns):
+TypeError: argument to reversed() must be a sequence
+2017-04-13 22:59:00,829 [Thread-11:6356] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/upload/kindeditor
+Traceback (most recent call last):
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\python-project\blog_project_env\lib\site-packages\django\views\decorators\csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "G:\python-project\blog_project\blog\upload.py", line 24, in upload_image
+    result = image_upload(dir_name)
+TypeError: image_upload() takes exactly 2 arguments (1 given)
